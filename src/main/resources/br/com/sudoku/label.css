@@ -1,0 +1,25 @@
+/* The base style for the label */
+.status-label {
+    -fx-font-family: "Segoe UI", Tahoma, sans-serif;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-padding: 8px 25px;
+
+    /* Rounded Corners */
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+
+    /* Off-White Style (Playing State) */
+    -fx-background-color: #F0F4F8; /* Subtle blueish-white */
+    -fx-text-fill: #546E7A;        /* Muted slate text */
+    -fx-border-color: #D1D9E6;    /* Soft border */
+    -fx-border-width: 1px;
+}
+
+/* The Winning Style */
+.status-label-win {
+    -fx-background-color: #E8F5E9; /* Light Mint Green */
+    -fx-text-fill: #2E7D32;        /* Deep Forest Green */
+    -fx-border-color: #A5D6A7;    /* Stronger Green Border */
+    -fx-border-width: 2px;
+}
